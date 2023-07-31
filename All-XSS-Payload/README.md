@@ -1,4 +1,5 @@
-# XSS PAYLOAD 
+# XSS PAYLOAD [PAYLOAD.txt](https://github.com/zerbaliy3v/0xpayload/blob/main/All-XSS-Payload/payload.txt)
+
 
 ### CSP BYPASS:
 
